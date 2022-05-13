@@ -1,0 +1,36 @@
+<RadioGroup
+        android:id="@+id/radiokelompok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="159dp">
+
+        <RadioButton
+            android:id="@+id/radioresistor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="resistor"
+            app:layout_constraintBottom_toTopOf="@+id/textnamakomponen"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radiotransistor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Transistor"
+            app:layout_constraintBottom_toTopOf="@+id/radioresistor"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radiokapasitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Kapasitor"
+            app:layout_constraintBottom_toTopOf="@+id/radiotransistor"
+            app:layout_constraintLeft_toLeftOf="parent" />
+    </RadioGroup>
