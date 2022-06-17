@@ -1,6 +1,4 @@
 - 👋 Hi, I’m @SigitTriR
-- 👀 I’m interested in ... IOT and HARDWARE
-- 🌱 I’m currently learning ... embedded system
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
